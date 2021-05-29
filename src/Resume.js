@@ -1,4 +1,5 @@
 import React from 'react';
+import { v4 as uuidv4 } from 'uuid';
 import ResumeExp from './ResumeExp';
 import ResumeAward from './ResumeAward'; 
 import './styles/Resume.css';
@@ -49,7 +50,7 @@ function Resume({exp, awards}) {
                 <h1>Experience</h1>
                 <div className="Resume-exp-display">
                     {exp.map(e => (
-                        <ResumeExp {...e}/>
+                        <ResumeExp key={uuidv4()} {...e}/>
                     ))}
                 </div>
             </div>
@@ -61,7 +62,7 @@ function Resume({exp, awards}) {
                 <div className="row">
                     {
                         awards.map(award => (
-                            <ResumeAward {...award}/>
+                            <ResumeAward key={uuidv4()} {...award}/>
                         ))
                     }
                 </div>
