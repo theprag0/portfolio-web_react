@@ -12,8 +12,20 @@ function App({mainProps = defaultProps}) {
   return (
     <>
       <Navbar />
-      <Home {...mainProps}/>
-      <About {...mainProps}/>
+      <Home 
+        firstName={mainProps.firstName} 
+        lastName={mainProps.lastName} 
+        roles={mainProps.roles}
+      />
+      <About 
+        mainImg={mainProps.mainImg}
+        firstName={mainProps.firstName} 
+        lastName={mainProps.lastName}
+        email={mainProps.email}
+        phone={mainProps.phone}
+        dob={mainProps.dob}
+        cv={mainProps.cv}
+      />
       <Resume exp={mainProps.experience} awards={mainProps.awards}/>
       <Contact />
       <Footer />
