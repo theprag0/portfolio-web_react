@@ -30,19 +30,22 @@ function Navbar(props) {
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto" id="nav-links">
-                    <li className="nav-item px-1">
-                        <a className="nav-link" href="#home">Home</a>
-                    </li>
-                    <li className="nav-item px-1">
-                        <a className="nav-link" href="#about">About</a>
-                    </li>
-                    <li className="nav-item px-1">
-                        <a className="nav-link" href="#resume">Resume</a>
-                    </li>
-                    <li className="nav-item px-1">
-                        <a className="nav-link" href="#contact">Contact</a>
-                    </li>
+                        <li className="nav-item px-1">
+                            <a className="nav-link" href="#home">Home</a>
+                        </li>
+                        <li className="nav-item px-1">
+                            <a className="nav-link" href="#about">About</a>
+                        </li>
+                        <li className="nav-item px-1">
+                            <a className="nav-link" href="#resume">Resume</a>
+                        </li>
+                        <li className="nav-item px-1">
+                            <a className="nav-link" href="#contact">Contact</a>
+                        </li>
                     </ul>
+                    <a className="nav-link linkedin-nav px-3" href="https://www.linkedin.com/in/saravanan-rathinam-778a0a49/" target="_blank" rel="noreferrer">
+                        <i className="fab fa-linkedin"></i>
+                    </a>
                 </div>
             </div>
             </nav>

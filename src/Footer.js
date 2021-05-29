@@ -44,12 +44,19 @@ function Footer(props) {
                             <span><i className="fas fa-envelope"></i></span>
                             saranvanangr@gmail.com
                         </p>
+                        <p>
+                            <span><i class="fab fa-skype"></i></span>
+                            sarangr007
+                        </p>
                         <a id="fb" href="https://www.facebook.com/gr.saran" target="_blank" rel="noreferrer">
                             <i className="fab fa-facebook"></i>
                         </a>
                         <a id="linkedin" href="https://www.linkedin.com/in/saravanan-rathinam-778a0a49/" target="_blank" rel="noreferrer">
                             <i className="fab fa-linkedin"></i>
                         </a>
+                        {/* <a id="linkedin" href="skype:sarangr007?userinfo" target="_blank" rel="noreferrer">
+                            <i class="fab fa-skype"></i>
+                        </a> */}
                     </div>
                 </div>
                 <div className="row" style={{marginTop: "3.5rem"}} id="footer-badges">

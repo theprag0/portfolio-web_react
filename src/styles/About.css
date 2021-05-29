@@ -73,6 +73,9 @@
     .About-info{
         text-align: start;
     }
+    .main-img{
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 992px) {

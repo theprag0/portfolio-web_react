@@ -10,20 +10,8 @@ function Resume({exp, awards}) {
         <section className="Resume-edu">
             <div className="container edu">
                 <div className="row justify-content-center">
-                    <div className="col-sm-12 col-md-7 ml-5 order-2 order-md-1">
-                        <div className="row mb-1">
-                            <div className="col-md-11">
-                                <div className="card border-primary edu-card" data-aos="fade-down-right" data-aos-duration="1500">
-                                <div className="edu-icon"><i className="fas fa-university fa-1x"></i></div>
-                                <div className="card-body">
-                                    <span className="card-subtitle edu-yr">2002 - 2005</span>
-                                    <h2 className="card-title edu-name">Bachelor of Computer Technology</h2>
-                                    <span className="card-title edu-univ">Kalinga University - Raipur</span>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row">
+                    <div className="col-sm-12 col-md-7 order-2 order-md-1" id="edu-cards-row">
+                        <div className="row mb-2">
                             <div className="col-md-11">
                                 <div className="card border-primary edu-card" data-aos="fade-up-right" data-aos-duration="1500">
                                     <div className="edu-icon">
@@ -34,6 +22,18 @@ function Resume({exp, awards}) {
                                         <h2 className="card-title edu-name">Master of Business Administration</h2>
                                         <span className="card-title edu-univ">Annamalai University - Chidambaram</span>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-md-11">
+                                <div className="card border-primary edu-card" data-aos="fade-down-right" data-aos-duration="1500">
+                                <div className="edu-icon"><i className="fas fa-university fa-1x"></i></div>
+                                <div className="card-body">
+                                    <span className="card-subtitle edu-yr">2002 - 2005</span>
+                                    <h2 className="card-title edu-name">Bachelor of Computer Applications</h2>
+                                    <span className="card-title edu-univ">Kalinga University - Raipur</span>
+                                </div>
                                 </div>
                             </div>
                         </div>
