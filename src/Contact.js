@@ -29,7 +29,7 @@ function Contact(props) {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setButton("Sending...");
-        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_ID)
+        emailjs.sendForm("service_wpn7uot", "template_l4y3urr", e.target, "user_aNC5ZDx5nwjPvpuJ3ygPy")
             .then((result) => {
                 if (result.text === "OK") {
                     resetForm();
