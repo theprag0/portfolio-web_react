@@ -1,0 +1,153 @@
+.Resume{
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+}
+
+.Resume-edu{
+    height: 100%;
+    background: linear-gradient(90deg, transparent 50%, rgba(189, 202, 255, 0.2) 50%);
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.edu-title{
+    height: 100%;
+}
+
+.Resume-edu h1{
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #3e64ff;
+    text-align: center;
+    height: 100%;
+    margin-top: 40%;
+    margin-left: 1rem;
+}
+
+.edu{
+    margin: 10px;
+    padding: 10px;
+}
+
+.edu-card{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+    -moz-box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+    width: 90%;
+}
+
+.edu-icon{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.edu-icon i{
+    background-color: #3e64ff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+
+.edu-yr{
+    color: #3e64ff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.edu-name{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 5px 0 0;
+}
+
+.edu-univ{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Experience Section */
+.Resume-exp{
+    height: 100%;
+    margin-top: 2rem;
+}
+
+.Resume-exp h1{
+    text-align: center;
+    margin: 1rem 0;
+    margin-top: 5rem;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.Resume-exp-display{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+}
+
+/* Awards Section */
+.Resume-awards{
+    margin-top: 3rem;
+    margin-bottom: 3.5rem;
+}
+
+.award-header{
+    width: 100%;
+    margin: 2.5rem auto;
+    margin-top: 3rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+
+.Resume-awards .row{
+    margin-left: 5rem;
+}
+
+@media (max-width: 992px) {
+    .edu-yr{
+        font-size: 16px;
+    }
+    .edu-name{
+        font-size: 20px;
+    }
+    .edu-univ{
+        font-size: 16px;
+    }
+
+    .Resume-awards .row{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px){
+    .Resume-edu h1{
+        margin-top: 0;
+        padding: 10px;
+    }
+
+    .edu-card{
+        width: 95%;
+        margin: auto;
+    }
+
+    .Resume-exp-display{
+        grid-template-columns: repeat(1, 100%);
+    }
+
+    .Resume-awards .row{
+        margin-left: 2.5rem;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+    .Resume-edu h1{
+        margin-top: 80%;
+    }
+}

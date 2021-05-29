@@ -1,0 +1,125 @@
+.Home {
+    height: 100vh;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Home-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .1;
+    width: 50%;
+    background: #3e64ff;
+}
+
+.Home-content{
+   width: 100%;
+   margin: 0 auto;
+   text-align: center;
+   position: absolute;
+   top: 35%;
+}
+
+.Home-intro{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 800;
+    color: #3e64ff;
+    letter-spacing: 4px;
+}
+
+.Home-name{
+    font-size: 60px;
+    font-weight: 800;
+    color: #000;
+    line-height: 1.5;
+}
+
+.Home-content h3{
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1.5;
+    color: #000;
+}
+
+.Home-content h3 span{
+    color: #3e64ff;
+    text-decoration: underline;
+}
+
+.mouse{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 120px;
+    z-index: 2;
+    text-align: center;
+}
+
+.mouse-icon{
+    width: 70px;
+    height: 70px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.mouse-icon::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background: #edf0ff;
+    z-index: -1;
+    transform: rotate(45deg);
+}
+
+.mouse-wheel{
+    height: 70px;
+    margin: -10px auto 0;
+    display: block;
+    width: 30px;
+    background: transparent;
+    animation: 1.6s ease infinite wheel-up-down;
+    color: #3e64ff;
+    font-size: 25px;
+    border-radius: 50%;
+}
+
+@keyframes wheel-up-down {
+    25% {
+        opacity: 1;
+    
+      }
+      33% {
+        opacity: 1;
+        transform: translateY(30px);
+      }
+      67% {
+        opacity: 1;
+        transform: translateY(40px);
+      }
+      100% {
+        opacity: 0;
+        transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+      }
+  }
+
+@media (max-width: 768px){
+    .Home-name{
+        font-size: 37px;
+        text-align: center;
+    }
+
+    .Home-content h3{
+        font-size: 1.6rem;
+    }
+}

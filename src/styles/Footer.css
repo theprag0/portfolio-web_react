@@ -1,0 +1,130 @@
+.Footer{
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+#footer-about,
+#quick-links,
+#footer-contact{
+    padding: 0 2rem;
+}
+
+#footer-about h1,
+#quick-links h1,
+#footer-contact h1{
+    margin-bottom: 40px;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+#footer-about p,
+#quick-links ul li a,
+#footer-contact p{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+
+#footer-about p{
+    letter-spacing: 1px;
+}
+
+#quick-links ul li{
+    list-style: none;
+    padding: 5px;
+}
+
+#quick-links ul li a{
+    font-size: 16px;
+}
+
+#quick-links ul li a i{
+    padding-right: 2px;
+}
+
+#quick-links ul li a:hover{
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+#footer-contact p{
+    font-size: 16px;
+}
+
+#footer-contact p span i{
+    padding-right: 1rem;
+}
+
+#fb,
+#linkedin{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    padding: 5px 10px;
+    margin-right: 1rem;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+#linkedin{
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+#fb:hover{
+    background-color: #4267B2;
+    color: #fff;
+}
+
+#linkedin:hover{
+    background-color: #0077b5;
+    color: #fff;
+}
+
+.footer-badge img{
+    height: 7.7rem;
+}
+
+@media (max-width: 992px){
+    #footer-about h1,
+    #quick-links h1,
+    #footer-contact h1{
+        margin-bottom: 15px;
+    }
+
+    .footer-badge img{
+        height: 6.5rem;
+    }
+}
+
+@media (max-width: 768px){
+    .footer-badge img{
+        padding: 0.5rem;
+        height: 7.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    #footer-badges{
+        display: none;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+    #quick-links ul li a{
+        font-size: 14px;
+    }
+    #footer-contact p span i{
+        padding-right: 0.3rem;
+    }
+    #footer-contact p{
+        font-size: 14px;
+    }
+}
