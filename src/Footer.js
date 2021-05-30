@@ -45,7 +45,7 @@ function Footer(props) {
                             saranvanangr@gmail.com
                         </p>
                         <p>
-                            <span><i class="fab fa-skype"></i></span>
+                            <span><i className="fab fa-skype"></i></span>
                             sarangr007
                         </p>
                         <a id="fb" href="https://www.facebook.com/gr.saran" target="_blank" rel="noreferrer">

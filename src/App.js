@@ -24,6 +24,7 @@ function App({mainProps = defaultProps}) {
         email={mainProps.email}
         phone={mainProps.phone}
         dob={mainProps.dob}
+        skype={mainProps.skype}
         cv={mainProps.cv}
       />
       <Resume exp={mainProps.experience} awards={mainProps.awards}/>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/About.css';
 
-function About({mainImg, firstName, lastName, email, phone, dob, cv}) {
+function About({mainImg, firstName, lastName, email, phone, dob, cv, skype}) {
     return (
         <section className="About container" id="about">
             <div className="row justify-content-center">
@@ -27,6 +27,10 @@ function About({mainImg, firstName, lastName, email, phone, dob, cv}) {
                         <li className="d-flex">
                             <span><strong>Email:</strong></span>
                             <span>{email}</span>
+                        </li>
+                        <li className="d-flex">
+                            <span><strong>Skype:</strong></span>
+                            <span>{skype}</span>
                         </li>
                         <li className="d-flex">
                             <span><strong>Phone:</strong></span>

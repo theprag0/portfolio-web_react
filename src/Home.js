@@ -20,13 +20,13 @@ function Home({firstName, lastName, roles}) {
                     </span>
                 </h3>
             </div>
-            <div className="mouse">
+            {/* <div className="mouse">
                 <a href="#about" className="mouse-icon">
                     <div className="mouse-wheel">
                         <i className="fas fa-arrow-down fa-sm"></i>
                     </div>
                 </a>
-            </div>
+            </div> */}
         </div>
     );
 }

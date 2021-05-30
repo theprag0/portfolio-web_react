@@ -2,7 +2,8 @@ import React, {useState} from 'react';
 import emailjs from 'emailjs-com';
 import {useInputState} from './hooks/useInputState';
 import './styles/Contact.css';
-import img1 from './assets/images/xps.jpg';
+// import img1 from './assets/images/xps.jpg';
+import img2 from './assets/images/pic2.jpeg';
 // import img2 from './assets/images/the-new-york-public-library.jpg';
 
 function Contact(props) {
@@ -45,7 +46,7 @@ function Contact(props) {
     }
 
     return (
-        <section id="contact" style={{backgroundImage: `url(${img1})`}}>
+        <section id="contact" style={{backgroundImage: `url(${img2})`}}>
             <div className="container">
                 <div id="contact-text">
                     <h1>Contact Me</h1>
