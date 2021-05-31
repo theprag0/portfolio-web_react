@@ -10,7 +10,7 @@ export const defaultProps = {
     address: "Madurai, TN, India",
     zipcode: "625007",
     email: "saranvanangr@gmail.com",
-    phone: "+91 6374-200-295",
+    phone: "+91 6374200295",
     skype: "sarangr007",
     cv,
     mainImg,
@@ -74,5 +74,50 @@ export const defaultProps = {
             awardText: "Arab Tech Award - Recognised as the region's top IT Talent",
             dataAos: 'zoom-in-left'
         }
+    ],
+    keySkills: [
+      'Project Management, Infrastructure Management, Support Management', 
+      'Data Center Management, Triage Incident Management, Problem Management',
+      'Change Management, Executive Management, StakeHolder & Communication Management',
+      'Budgeting, Contract Negotiations, Procurement, Vendor Relations, Asset Management',
+      'Scrum Master',
+      'BPO Service',
+      'ITSM & Helpdesk, NOC & SOC',
+      'Business Review, Solutions, forecast & IT Road map',
+    ],
+    softSkills: [
+      'Scrum Certified, Agile Methodology, Jira Certified',
+      'Trello, Kanban',
+      'MS Team & MS Planner, MS Office',
+      'DMAIC Method, Why-Why Method, Cause & Effect Analysis, Root cause analysis(RCA), Corrective Action Plan(CAP)',
+      'Presentation Skill, Time Management, Problem Solving, Self-Motivation',
+      'Mentoring, Trusted Adviser, Leadership, Team Building, People growth',
+      'Recruitment, Planning, Interpersonal, Networking' 
+    ],
+    certifications: [
+      {
+        name: 'ITIL Foundation Certified',
+        org: 'Peoplecert'
+      },
+      {
+        name: 'Project Management Professional (PMP)',
+        org: 'Skill Logic'
+      },
+      {
+        name: 'Lean Six Sigma Green Belt',
+        org: 'Udemy'
+      },
+      {
+        name: 'Microsoft Certified Professional (MCP)',
+        org: 'Microsoft'
+      },
+      {
+        name: 'Implementing and managing Microsoft Exchange Server 2000',
+        org: 'Microsoft'
+      },
+      {
+        name: 'The Complete Agile Scrum Fundamental',
+        org: 'Udemy'
+      }
     ]
 };

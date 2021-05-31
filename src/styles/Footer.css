@@ -88,32 +88,11 @@
     color: #fff;
 }
 
-.footer-badge img{
-    height: 7.7rem;
-}
-
 @media (max-width: 992px){
     #footer-about h1,
     #quick-links h1,
     #footer-contact h1{
         margin-bottom: 15px;
-    }
-
-    .footer-badge img{
-        height: 6.5rem;
-    }
-}
-
-@media (max-width: 768px){
-    .footer-badge img{
-        padding: 0.5rem;
-        height: 7.5rem;
-    }
-}
-
-@media (max-width: 576px) {
-    #footer-badges{
-        display: none;
     }
 }
 

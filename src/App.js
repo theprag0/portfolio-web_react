@@ -27,9 +27,19 @@ function App({mainProps = defaultProps}) {
         skype={mainProps.skype}
         cv={mainProps.cv}
       />
-      <Resume exp={mainProps.experience} awards={mainProps.awards}/>
+      <Resume 
+        exp={mainProps.experience} 
+        awards={mainProps.awards} 
+        keySkills={mainProps.keySkills} 
+        softSkills={mainProps.softSkills}
+        certifications={mainProps.certifications}
+      />
       <Contact />
-      <Footer />
+      <Footer 
+        email={mainProps.email}
+        phone={mainProps.phone}
+        skype={mainProps.skype}
+      />
     </>
   );
 }
