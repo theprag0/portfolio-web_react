@@ -135,4 +135,11 @@
     .Home-content h3{
         font-size: 1.6rem;
     }
+
+    .mouse{
+        bottom: 40px;
+    }
+    .mouse-wheel{
+        font-size: 30px;
+    }
 }
