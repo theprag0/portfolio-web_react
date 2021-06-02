@@ -66,7 +66,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 120px;
+    bottom: 70px;
     z-index: 2;
     text-align: center;
 }
@@ -81,17 +81,6 @@
     margin: 0 auto;
     display: block;
 }
-.mouse-icon::after{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    content: '';
-    background: #edf0ff;
-    z-index: -1;
-    transform: rotate(45deg);
-}
 
 .mouse-wheel{
     height: 70px;
@@ -100,8 +89,9 @@
     width: 30px;
     background: transparent;
     animation: 1.6s ease infinite wheel-up-down;
-    color: #3e64ff;
-    font-size: 25px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
     border-radius: 50%;
 }
 
@@ -122,7 +112,7 @@
         opacity: 0;
         transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
       }
-  }
+}
 
 @media (max-width: 992px){
     .Home-intro{

@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from 'uuid';
 import ResumeExp from './ResumeExp';
 import ResumeAward from './ResumeAward'; 
 import './styles/Resume.css';
-import pic5 from './assets/images/pic5.jpeg';
+import pic4 from './assets/images/pic4.jpeg';
 import badge1 from './assets/images/Microsoft Planner Badge.png';
 import badge2 from './assets/images/Microsoft Teams Badge.png';
 import badge3 from './assets/images/OneDrive - Digital Badge.png';
@@ -114,7 +114,7 @@ function Resume({exp, awards, keySkills, softSkills, certifications}) {
                         </ul>
                     </div>
                     <div className="col-md-6 key-skills-img order-1 order-md-2">
-                        <img className="img-fluid" src={pic5} alt="Mug Banner Pic"/>
+                        <img className="img-fluid" src={pic4} alt="Mug Banner Pic"/>
                     </div>
                 </div>
             </div>
